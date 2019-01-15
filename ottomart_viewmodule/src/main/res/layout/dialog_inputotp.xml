@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="24dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextView14spbold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Masukkan Kode Verifikasi keamanan yang dikirimkan ke"
+            android:textColor="@color/charcoal_grey" />
+
+        <TextView
+            android:id="@+id/shop_phone"
+            style="@style/TextView14spbold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="08000XXXX00"
+            android:textColor="@color/charcoal_grey" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextView14sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Waktu memasukkan kode OTP"
+            android:textColor="@color/charcoal_grey" />
+
+        <TextView
+            android:id="@+id/timer"
+            style="@style/TextView14spbold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:gravity="center"
+            android:text="00:00"
+            android:textColor="@color/ocean_blue" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp">
+
+        <com.otto.mart.ui.component.OtpViewGroup
+            android:id="@+id/otp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:inputType="number"
+            app:background_drawable="@drawable/border_otp"
+            app:height="36dp"
+            app:length="6"
+            app:space_bottom="0dp"
+            app:space_left="2dp"
+            app:space_right="0dp"
+            app:space_top="2dp"
+            app:width="36dp" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.andexert.library.RippleView
+            android:id="@+id/action1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="32dp"
+            android:layout_marginTop="32dp">
+
+            <TextView
+                style="@style/TextView14spbold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/button_blue"
+                android:paddingBottom="10dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:paddingTop="10dp"
+                android:text="Konfirmasi OTP"
+                android:textColor="@color/color_white" />
+
+        </com.andexert.library.RippleView>
+
+
+        <ProgressBar
+            android:id="@+id/pBar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_resend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:layout_marginTop="32dp"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <TextView
+            style="@style/TextView14spbold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Tidak terima kode OTP?"
+            android:textColor="@color/charcoal_grey" />
+
+
+        <TextView
+            android:id="@+id/tv_resend"
+            style="@style/TextView14spbold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Kirim Ulang"
+            android:textColor="@color/ocean_blue" />
+    </LinearLayout>
+</LinearLayout>

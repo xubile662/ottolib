@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+
+    <include layout="@layout/dialog_header" />
+
+    <com.otto.mart.ui.component.LazyTextview
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        app:customLayout="@layout/cw_textview_horizontal"
+        app:text="Pulsa XL 10rb  "
+        app:title="Jenis Transaksi" />
+
+    <com.otto.mart.ui.component.LazyTextview
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        app:customLayout="@layout/cw_textview_horizontal"
+        app:text="Pulsa XL 10rb  "
+        app:title="Nomor Telepon" />
+
+    <com.otto.mart.ui.component.LazyTextview
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        app:customLayout="@layout/cw_textview_horizontal"
+        app:text="Pulsa XL 10rb  "
+        app:title="Metode Pembayaran " />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/label"
+            style="@style/TextView12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jumlah Total"
+            android:textColor="@color/cool_grey" />
+
+        <TextView
+            android:id="@+id/value"
+            style="@style/TextView12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Rp 107.000"
+            android:textColor="@color/cool_grey" />
+
+        <TextView
+            style="@style/TextView12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_toLeftOf="@id/value"
+            android:text="Tidak Bisa Dicairkan"
+            android:textColor="@color/scarlet" />
+    </RelativeLayout>
+</LinearLayout>

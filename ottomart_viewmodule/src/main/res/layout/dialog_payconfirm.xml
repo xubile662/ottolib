@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.otto.mart.ui.component.LazyTextview
+        android:id="@+id/ltv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:customLayout="@layout/cw_textview_b"
+        app:text="-"
+        app:title="Nama Pemilik Rekening tujuan" />
+
+
+    <com.otto.mart.ui.component.LazyTextview
+        android:id="@+id/ltv_val"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        app:customLayout="@layout/cw_textview_b"
+        app:text="0"
+        app:title="jumlah Transfer" />
+
+    <com.otto.mart.ui.component.LazyTextview
+        android:id="@+id/ltv_fee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        app:customLayout="@layout/cw_textview_b"
+        app:text="0"
+        app:title="Biaya Transfer" />
+
+    <TextView
+        style="@style/TextView14sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginVertical="16dp"
+        android:gravity="center"
+        android:text="Tekan tombol dibawah bila anda setuju untuk melakukan transfer" />
+
+    <TextView
+        android:id="@+id/confirm"
+        style="@style/TextView16spbold"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/button_blue"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Transfer"
+        android:textColor="@color/color_white" />
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:minWidth="250dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextView14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:text="Jawaban yang kamu masukkan salah. Silakan hubungi customer service OttoPay untuk mengubah"
+            android:textColor="@color/colorBlack" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TextView14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PIN kamu di nomor "
+                android:textColor="@color/colorBlack" />
+
+            <TextView
+                android:id="@+id/phone"
+                style="@style/TextView14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="{otto cust}"
+                android:textColor="@color/ocean_blue" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+
+        android:background="@color/white_three"></View>
+
+
+</LinearLayout>
+

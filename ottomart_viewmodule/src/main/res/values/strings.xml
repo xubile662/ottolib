@@ -1,0 +1,55 @@
+<resources>
+    <!--beta-->
+    <!--<string name="app_name">OttoPay Beta</string>-->
+
+    <!--release-->
+    <string name="app_name">OttoPay</string>
+
+    <string name="dilog_loginqr">Kode QR dari sales Ottopay, untuk melakukan pendaftaran, Atau lewati jika belum punya kode QR</string>
+    <string name="hipsum_1">Helvetica four loko wolf, mixtape pug single-origin coffee freegan whatever williamsburg messenger bag tumeric irony fam beard.</string>
+    <string name="hipsum_2">Affogato gentrify bespoke irony. Hexagon master cleanse mustache pinterest unicorn live-edge. Neutra marfa hell of scenester, kickstarter ennui cronut DIY. Vice iPhone occupy keffiyeh 3 wolf moon hammock hell of tbh kickstarter unicorn yuccie pork belly plaid.</string>
+    <string name="hipsum_3">Aesthetic coloring book shabby chic shoreditch locavore, mustache austin VHS. Fanny pack thundercats coloring book green juice tbh four loko. Vice hell of cold-pressed, tbh fashion axe post-ironic franzen humblebrag hot chicken scenester. Subway tile neutra activated charcoal fixie, health goth pop-up cray.</string>
+
+    <string name="temp_name">-</string>
+    <string name="temp_id">-</string>
+    <string name="temp_email">-</string>
+    <string name="s_left">Tunjukan Kode QR</string>
+    <string name="s_right">Baca Kode QR</string>
+
+    <string name="s_ain_1">Upload foto User + KTP</string>
+    <string name="s_ain_2">Upload foto KTP</string>
+    <string name="s_ain_3">Pastikan foto dagangan kamu sesuai dengan tempat yang telah disediakan</string>
+
+    <string name="s_sub_1">Pastikan foto wajah dan KTP kamu sesuai dengan tempat yang telah disediakan</string>
+    <string name="s_sub_2">Pastikan foto KTP kamu sesuai dengan tempat yang telah disediakan</string>
+    <string name="s_sub_3">Upload foto Produk</string>
+    <string name="dialog_upgrade">Selamat data kamu sudah terkirim, kami akan melakukan validasi maksimal 2X24 jam, jika data sesuai maka secara otomasis akun kamu akan ter-upgrade</string>
+
+    <string name="message_transaction_success">Transaksi Berhasil</string>
+    <string name="message_transaction_failed">Transaksi Gagal</string>
+
+    <string name="qrdialog">Tunjukan kode QR dibawah kepada pembeli yang akan melakukan pembayaran , dan pastikan nominal sesuai.</string>
+
+    <string-array name="pendapatan">
+        <item>Transfer ke Dompet</item>
+        <item>Transfer ke Bank</item>
+    </string-array>
+
+    <string name="loading_message">Mohon menunggu</string>
+
+    <!-- PPOB -->
+    <string name="ppob_pendidikan_label_informasi">Informasi</string>
+    <string name="ppob_msg_transaction_in_progress">- Request in progress</string>
+    <string name="msg_check_internet_connection">Periksa koneksi internet anda!</string>
+    <string name="ppob_msg_share_it">Bagikan melalui...</string>
+    <string name="ppob_btn_favorite_list">Lihat Favorit</string>
+
+    <string name="title_activity_activation_selector">Activation Selector</string>
+    <string name="channel_name">foxnews</string>
+    <string name="channel_description">whatfoxsays</string>
+    <string name="title_otto_dynamic_ppob_core">otto_ppob_core_dynamic</string>
+    <string name="title_dynamic_feature">Module Title</string>
+    <string name="title_test">Module Title</string>
+    <string name="title_otto_ppob_core_dynamic">otto_ppob_core-dynamic</string>
+
+</resources>
